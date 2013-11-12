@@ -1,0 +1,33 @@
+	body{
+		font-family: "Verdana", sans-serif;
+	}
+	.titulo{
+		font-weight: bold;
+	}
+	.fecha_estreno{
+		color:#666;
+	}
+#menu ul{
+	margin:0;
+	padding:0;
+}
+#menu ul li{
+	display:inline-block;
+	padding:10px;
+}
+.pelicula{
+	width:200px;
+	height:390px;
+	float:left;
+}
+.clear{
+	clear:both;
+}
+.titulo{
+	height:70px;
+	text-align: center;
+}
+.poster{
+	text-align: center;
+}
+

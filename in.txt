@@ -1,0 +1,7 @@
+echo "ID:".$row{'id'}." Name:".$row{'model'}." 
+  ".$row{'year'}."<br>";
+
+
+while ($row = mysql_fetch_array($result)) {
+
+}
