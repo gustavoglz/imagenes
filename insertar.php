@@ -7,6 +7,12 @@ $size = $_FILES["image"] ["size"];
 $temp = $_FILES["image"] ["tmp_name"];
 $error = $_FILES["image"] ["error"];
 
+echo $_FILES["image"] ["name"];
+echo $_FILES["image"] ["type"];
+echo $_FILES["image"] ["size"];
+echo $_FILES["image"] ["tmp_name"];
+echo $_FILES["image"] ["error"];
+
 //$nombrecompuesto = date('His'). "-" .$name;
 //
 //if ($error > 0 )
