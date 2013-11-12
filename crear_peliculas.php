@@ -24,6 +24,7 @@ include "conexion.php";
 			<p>Fecha de Estreno</p>
 			<input type="text" name="fecha_estreno" id="fecha_estreno">
 			<br>
+			<p>Poster</p>
 			<input type="file" name="image" id="image"><br>
 	<p><input type="submit" value="Continuar"></p>
 		</body>
