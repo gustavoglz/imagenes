@@ -22,6 +22,7 @@
 		
 		while ($renglon = mysql_fetch_array($query)){
 			echo "<h1 class='titulo'>" . $renglon['titulo'] . "</h1>";
+			echo "<img height='300' src='posters/".$renglon['poster'] . "' />";
 		}
 		
 		?>
