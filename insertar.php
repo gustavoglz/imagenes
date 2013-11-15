@@ -26,7 +26,7 @@ else
 		
 }
 
-$query = mysql_query("INSERT INTO  peliculas (titulo, fecha_estreno, sinopsis, poster) VALUES ('" . $_POST['titulo'] ."','" . $_POST['fecha_estreno'] . "','". $_POST['sinopsis'] . "','". $nombreunico . "')");
+$query = mysql_query("INSERT INTO  peliculas (titulo, fecha_estreno, sinopsis, poster,director_id,genero_id) VALUES ('" . $_POST['titulo'] ."','" . $_POST['fecha_estreno'] . "','". $_POST['sinopsis'] . "','". $nombreunico ."','". $_POST['id_director'] . "','". $_POST['id_genero'] ."')");
 header('Location:index.php');
 ?>
 
